@@ -1,0 +1,21 @@
+@import "responsive";
+
+.layout {
+  border: 4px solid magenta;
+  height: 100vh;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+
+  @include lg {
+    max-width: 80rem;
+  }
+
+  @include md {
+    max-width: 48rem;
+  }
+
+  @include sm {
+    max-width: 40rem;
+  }
+}
