@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  gap: 1.25rem;
+
+  .imageContainer {
+    flex: 2;
+    height: 12.5rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.675rem;
+    }
+  }
+
+  .textContainer {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.675rem;
+
+    img {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #444;
+      transition: all 300ms ease-in;
+
+      &:hover {
+        color: black;
+        scale: 1.01;
+      }
+    }
+
+    .address {
+      font-size: 0.875rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3125rem;
+      color: #888;
+    }
+
+    .price {
+      font-size: 1.25rem;
+      font-weight: 300;
+      padding: 0.3125rem;
+      border-radius: 0.3125rem;
+      background-color: rgba(254, 205, 81, 0.438);
+      width: max-content;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.675rem;
+
+      .features {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.875rem;
+
+        .feature {
+          display: flex;
+          align-items: center;
+          gap: 0.3125rem;
+          background-color: whitesmoke;
+          padding: 0.3125rem;
+          border-radius: 0.3125rem;
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 1.25rem;
+
+        .icon {
+          border: 0.0675rem solid #999;
+          padding: 0.125rem 0.3125rem;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &:hover {
+            background-color: lightgray;
+          }
+        }
+      }
+    }
+  }
+}
