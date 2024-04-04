@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import "./map.scss";
 import "leaflet/dist/leaflet.css";
 import Pin from "../pin/Pin";
@@ -10,7 +10,7 @@ function Map({ items }) {
     <MapContainer
       center={position}
       zoom={7}
-      scrollWheelZoom={true}
+      scrollWheelZoom={false}
       className="map"
     >
       <TileLayer
