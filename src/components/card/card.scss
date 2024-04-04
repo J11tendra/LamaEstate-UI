@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .card {
   display: flex;
   gap: 1.25rem;
@@ -5,6 +7,10 @@
   .imageContainer {
     flex: 2;
     height: 12.5rem;
+
+    @include sm {
+      display: none;
+    }
 
     img {
       width: 100%;
