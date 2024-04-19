@@ -2,7 +2,7 @@ export const listData = [
   {
     id: 1,
     title: "A Great Apartment Next to the Beach!",
-    img: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2345.jpg?t=st=1713417648~exp=1713421248~hmac=b888205f722e98622f8f1f0538271a4cb2b933fedc54b397a6e7567569f222b1&w=1380",
     bedroom: 2,
     bathroom: 1,
     price: 1000,
@@ -13,7 +13,7 @@ export const listData = [
   {
     id: 2,
     title: "An Awesome Apartment Near the Park! Almost too good to be true!",
-    img: "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: "https://img.freepik.com/free-photo/neon-robot-vacuum-cleaner_23-2151349264.jpg?t=st=1713417774~exp=1713421374~hmac=813baffadb74c0f7b2eec070dcd0d72dd394200c98a15a2dfda44e5714b90961&w=1380",
     bedroom: 3,
     bathroom: 2,
     price: 1500,
